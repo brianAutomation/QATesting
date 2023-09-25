@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MultiBrowserTest">
+    <test name="Chrometest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="selenium.MultiBrowserTest"/>
+        </classes>
+    </test>
+    <test name="safariTest">
+        <parameter name="browser" value="safari"/>
+        <classes>
+            <class name="selenium.MultiBrowserTest"/>
+        </classes>
+    </test>
+</suite>
